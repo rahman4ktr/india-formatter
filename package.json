@@ -1,0 +1,48 @@
+{
+  "name": "india-formatter",
+  "version": "1.0.0",
+  "description": "Zero-dependency Indian currency formatting, number-to-words, and regulatory validations (GST/PAN/Phone).",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "inr",
+    "currency",
+    "gst",
+    "pan",
+    "number-to-words",
+    "india",
+    "lakh",
+    "crore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahman4ktr/india-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahman4ktr/india-formatter/issues"
+  },
+  "homepage": "https://github.com/rahman4ktr/india-formatter#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
+
