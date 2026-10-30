@@ -1,4 +1,4 @@
-# india-formatter
+# india-formatter v1.0.0 - [ LIVE DEMO Playground ](https://india-formatter.rexvel.com/)
 
 Zero-dependency, ultra-lightweight ($< 3\text{ KB}$ gzipped) library for Indian currency formatting, number-to-words, and regulatory validations (GSTIN, PAN, Phone).
 
@@ -195,5 +195,5 @@ npm run build
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © [M Rahman](https://github.com/rahman4ktr)  - [ LIVE DEMO Playground ](https://india-formatter.rexvel.com/)
 
